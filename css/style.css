@@ -1,0 +1,140 @@
+body{
+    color: white;
+    font-family:Arial;
+    background-color: #3D3D3D;
+}
+
+.head-logo{
+    background-image: url(/img/Burger-logo-redo.png);
+    background-size: auto;
+}
+.foot-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.foot{
+    background-color: black;
+    height: 8vh;
+}
+
+.line-up{
+    padding-left: 2vw;
+}
+.line-up > li{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 1.6vw;
+    padding-right: 4vw;
+    padding-top: 4.5vh;
+}
+
+.head-logo{ 
+    height: 8vh;
+    padding-left: 5vw;
+    padding-top: 1vh;
+}
+
+.hero{
+    background-image: url(/img/burger-img-hero.jpg);
+    background-size: cover;
+    height: 88vh;
+    background-position-y: -45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desktop-bar{
+    display: none;
+}
+
+.hamburger{
+    text-align: right;
+    font-size: 3vh;
+    padding-top: 2.5vh;
+    padding-right: 5vw;
+}
+
+
+
+
+@media only screen and (min-width: 900px) {
+    /* Header*/
+
+    
+.head-logo{
+    background-image: url(/img/Burger-logo-redo.png);
+    background-size: auto;
+}
+.foot-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.foot{
+    background-color: black;
+    height: 12vh;
+}
+
+.line-up{
+    padding-left: 2vw;
+}
+.line-up > li{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 1.6vw;
+    padding-right: 4vw;
+    padding-top: 4.5vh;
+}
+
+.head-logo{ 
+    height: 12vh;
+    padding-left: 12vw;
+}
+
+.hero{
+    background-image: url(/img/burger-img-hero.jpg);
+    background-size: cover;
+    height: 88vh;
+    background-position-y: -45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger{
+    display: none;
+}
+.desktop-bar{
+    display: block;
+}
+.block-size{
+    position: relative;
+    background-color:#3D3D3D;
+    height: 25vh;
+    width: 55vw;
+}
+.slogan{
+    font-weight: bolder;
+    text-align: center;
+    margin: 0vh 7vw;
+    padding-top: 5vh;
+    color: white;
+    font-size: 2.5vw;
+    padding-bottom: 2vh;
+    border-bottom: 4px solid #BC2B32;
+}
+
+/* Main */
+.splice{
+    padding-top: 8vh;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-gap: 5vw;
+}
+}
+
+
+
+
