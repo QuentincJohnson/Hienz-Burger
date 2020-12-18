@@ -53,14 +53,14 @@ body{
 }
 
 .mobile-margin{
-    padding: 0vw 12vw;
+    padding: 0vw 10vw;
 }
 .slogan{
     font-weight: bolder;
     text-align: center;
     padding-top: 5vh;
     color: white;
-    font-size: 3vw;
+    font-size: 3.6vw;
     padding-bottom: 2vh;
     border-bottom: 2px solid #BC2B32;
 }
@@ -69,10 +69,31 @@ body{
     margin-top: 10vw;
     padding: 6vw;
     border: 2px solid #BC2B32;
-
-
 }
 
+.big-head{
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 5vh;
+    color: white;
+    font-size: 5vw;
+    padding-bottom: 2vh;
+    border-bottom: 2px solid #BC2B32;
+    margin: 0vw 15vw;
+    margin-bottom: 4vh;
+}
+.hour-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15vw;
+}
+
+.days{
+    text-align: center;
+}
+.hour-space{
+    line-height: 7vw;
+}
 
 /* <p>  
                 <ul>
