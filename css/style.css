@@ -205,7 +205,10 @@ body{
 @media only screen and (min-width: 900px) {
     /* Header*/
 
-    
+body{
+    display: none;
+}
+
 .head-logo{
     background-image: url(/img/Burger-logo-redo.png);
     background-size: auto;
