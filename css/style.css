@@ -205,10 +205,6 @@ body{
 @media only screen and (min-width: 900px) {
     /* Header*/
 
-body{
-    display: none;
-}
-
 .head-logo{
     background-image: url(/img/Burger-logo-redo.png);
     background-size: auto;
@@ -255,6 +251,9 @@ body{
 .desktop-hide{
     display: block;
 }
+.desktop-margin{
+    padding: 4vw 10vw;
+}
 .block-size{
     position: relative;
     background-color:#3D3D3D;
@@ -281,6 +280,21 @@ body{
 }
 .mobile-hide{
     display: none;
+}
+.mobile-margin{
+    padding: 0vw 0vw;
+}
+.menu-img{
+    margin-top:0vw;
+    padding: 2vw;
+    border: 2px solid #BC2B32;
+}
+.menu-img > img{
+    width: 50vw;
+}
+.fb-style{
+    display: inline-block;
+    text-align: center;
 }
 }
 
